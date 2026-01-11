@@ -1,3 +1,4 @@
+// Fetch a random image and display it
 fetch("https://random.imagecdn.app/500/150")
   .then((response) => response.json())
   .then((data) => {
